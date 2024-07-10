@@ -81,7 +81,7 @@ function Work() {
 
   return (
     <div className="w-full relative">
-      <div className="max-w-screen-xl mx-auto text-white leading-none">
+      <div className="max-w-screen-xl mx-auto text-white leading-tight">
         <h1 className="text-[38vw] text-center font-medium">work</h1>
       </div>
       <div className="absolute w-full h-full top-0">

@@ -12,7 +12,7 @@ function Footer() {
           "Webflow Agency",
           "-Developed by Rupesh Patil",
         ].map((item, idx) => (
-          <ul>
+          <ul key={idx}>
             <li className="text-zinc-500 text-xs tracking-tighter cursor-pointer hover:translate-x-1 duration-300 hover:scale-100">
               {item}
             </li>

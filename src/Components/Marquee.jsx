@@ -10,8 +10,8 @@ function Marquee({ imageurls, direction }) {
         transition={{ ease: "linear", duration: 40, repeat: Infinity }}
         className="flex flex-shrink-0 gap-40 py-10 pr-40 "
       >
-        {imageurls.map((url) => (
-          <img src={url} alt="" />
+        {imageurls.map((url, idx) => (
+          <img key={idx} src={url} alt="" />
         ))}
       </motion.div>
       <motion.div
@@ -20,8 +20,8 @@ function Marquee({ imageurls, direction }) {
         transition={{ ease: "linear", duration: 40, repeat: Infinity }}
         className="flex flex-shrink-0 gap-40 py-10 pr-40 "
       >
-        {imageurls.map((url) => (
-          <img src={url} alt="" />
+        {imageurls.map((url, idx) => (
+          <img key={idx} src={url} alt="" />
         ))}
       </motion.div>
     </div>
